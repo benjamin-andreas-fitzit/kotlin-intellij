@@ -15,6 +15,7 @@ fun main() {
     val pi: Double = Math.PI
     val height: Int = 1080
     val wahrheitswert: Boolean = a == b && 42 > 5
+    val myString: String = "Hallo, Welt!"
 
     println("Total Pixels: " + width*height + " pixels.")
     println("Circular area: " + pi * radius * radius + "cm².")
@@ -42,4 +43,13 @@ fun main() {
     println(wahrheitswert)
     println(wahrheitswert == false)
 
+
+    for (buchstabe in myString) {
+        print(buchstabe+3)
+    }
+
+    for (index in myString.indices) {
+        println(index)
+        println(myString[index])
+    }
 }
