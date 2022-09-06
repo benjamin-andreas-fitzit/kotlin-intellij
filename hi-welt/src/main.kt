@@ -14,6 +14,7 @@ fun main() {
 
     val pi: Double = Math.PI
     val height: Int = 1080
+    val wahrheitswert: Boolean = a == b && 42 > 5
 
     println("Total Pixels: " + width*height + " pixels.")
     println("Circular area: " + pi * radius * radius + "cm².")
@@ -31,5 +32,14 @@ fun main() {
     }
 
     println(max)
+
+    if (!wahrheitswert) {
+        println("false!!!")
+    } else {
+        println("true!!!")
+    }
+
+    println(wahrheitswert)
+    println(wahrheitswert == false)
 
 }
