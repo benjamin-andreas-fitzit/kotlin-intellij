@@ -70,4 +70,9 @@ fun main(args: Array<String>) {
     var meinArrr = arrayOf(42,42,42,42,42,42,42,42,42,42,42,42)
 
     meinArrr.forEach { println(it) }
+
+    for ((i, zahl) in meinArrr.withIndex()) {
+        println("index = $i")
+        println("zahl = $zahl")
+    }
 }
