@@ -63,4 +63,11 @@ fun main(args: Array<String>) {
     for (i in 42..82 step 2) {
         println(i)
     }
+
+    println()
+    //for Each Schleife
+
+    var meinArrr = arrayOf(42,42,42,42,42,42,42,42,42,42,42,42)
+
+    meinArrr.forEach { println(it) }
 }
