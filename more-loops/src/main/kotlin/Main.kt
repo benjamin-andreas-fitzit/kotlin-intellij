@@ -49,4 +49,18 @@ fun main(args: Array<String>) {
         }
         zahl--
     }
+    println()
+    // und jetzt noch ranges dazu
+
+    for (i in 0..20) {
+        println(i)
+    }
+
+    for (i in 42 downTo 19) {
+        println(i)
+    }
+
+    for (i in 42..82 step 2) {
+        println(i)
+    }
 }
